@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid black;
+  color: MediumAquamarine;
+  align-items: center;
+}
+
+.list {
+  display: inline-block;
+  align-items: right;
+  color: black;
+}
+
+.column {
+  display: flex;
+}
+
+.colum.large {
+  width: 630px;
+}
+
+.colum.medium {
+  width: 300px;
+}
+
+.colum.small {
+  width: 240px;
+}
